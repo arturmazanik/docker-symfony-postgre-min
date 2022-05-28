@@ -1,4 +1,4 @@
-FROM php:8.0.19-fpm
+FROM php:8.1-fpm
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends libssl-dev zlib1g-dev curl git unzip netcat libxml2-dev libpq-dev libzip-dev && \
@@ -14,5 +14,5 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 
 RUN curl -sS https://get.symfony.com/cli/installer | bash
 RUN mv /root/.symfony/bin/symfony /usr/local/bin/symfony
-RUN git config --global user.email "mazanik.artur@gmail.com" \
-    && git config --global user.name "Artur Mazanik"
+RUN git config --global user.email "user.name@mail.com" \
+    && git config --global user.name "User Name"

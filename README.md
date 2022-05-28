@@ -1,6 +1,6 @@
 docker-symfony-postgre-min
 --------------------------
-Minimal Docker configuration with `PHP 8.0`, `NGINX 1.20+`, `PostgreSQL 14.2+` and `Symfony 6` for development.
+Minimal Docker configuration with `PHP 8.1`, `NGINX 1.20+`, `PostgreSQL 14.2+` and `Symfony 6` for development.
 
 Initialization
 ====================================================
